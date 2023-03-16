@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "OnScreenDebug",
+	"Description": "Print and Update On-Screen Data at runtime.  Helpful for Debugging",
+	"Category": "Debug",
+	"CreatedBy": "sonictimm",
+	"CreatedByURL": "http://sonictimm.com/",
+	"DocsURL": "https://github.com/sonictimm/OnScreenDebug",
+	"MarketplaceURL": "https://github.com/sonictimm/OnScreenDebug",
+	"SupportURL": "https://github.com/sonictimm/OnScreenDebug",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"WhitelistPlatforms": [ "Win64", "Win32", "Mac" ],
+	"Modules": [
+		{
+			"Name": "OnScreenDebug",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
