@@ -5,7 +5,6 @@
 #include "OnScreenDebugList.h"
 
 #include "Runtime/UMG/Public/Blueprint/UserWidget.h"
-PRAGMA_DISABLE_OPTIMIZATION
 
 void UOnScreenDebugSubsystem::Initialize(FSubsystemCollectionBase& Collection)
 {
@@ -73,4 +72,3 @@ UUserWidget* UOnScreenDebugSubsystem::GetDebugOverlay()
 
 	return DebugOverlay;
 }
-PRAGMA_ENABLE_OPTIMIZATION
